@@ -65,7 +65,7 @@ def spread(values):
     """
     validate_all_values_are_numbers(values)
     values = sorted(values)
-    return last_element(values) - first_element(values)
+    return last_element(values) - first_element(values)  # or max(x) - min(x), but that sorts twice
 
 
 def squared_error(x, m):
