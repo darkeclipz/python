@@ -54,7 +54,7 @@ def calculate_s(s):
     return (s + sqrt(s*s - 4))**2 / 2
 
 
-def calculate_pi(n, b, s):
+def brent_salamin_approximation(n, b, s):
     return (1/2)**n * s / b
 
 
@@ -81,4 +81,4 @@ def approximate_pi_brent_salamin(n):
             break
         b = next_b
         s = next_s
-    return calculate_pi(n, b, s)
+    return brent_salamin_approximation(n, b, s)
