@@ -2,6 +2,7 @@
 
 
 def initialize_dictionary_with_characters():
+    # A is positioned at 65 in the ASCII table, i.e. ord(A) = 65.
     return {chr(char): 0 for char in range(65, 65 + 26)}
 
 
@@ -9,8 +10,10 @@ def is_uppercase_character(char):
     return 65 <= ord(char) < 65 + 26
 
 
-def filter_characters(text):
-    return [char for char in text.upper() if is_uppercase_character(char)]
+def next_uppercase_character(text):
+    for char in text:
+        if is_uppercase_character(char):
+            yield char
 
 
 def count_characters(text):
@@ -20,7 +23,7 @@ def count_characters(text):
     :return: Dictionary with the letter count.
     """
     counted_characters = initialize_dictionary_with_characters()
-    for char in filter_characters(text):
+    for char in next_uppercase_character(text.upper()):
         counted_characters[char] += 1
     return counted_characters
 
@@ -33,4 +36,5 @@ def read_text_from_file(file_path):
     :return: All the text in the file as a string.
     """
     with open(file_path) as file:
+        # Read all the lines from the file, and concatenate them.
         return ''.join([line for line in file])

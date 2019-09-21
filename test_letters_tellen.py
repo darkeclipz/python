@@ -29,5 +29,6 @@ class MyTestCase(unittest.TestCase):
         assert d['A'] == 3
         assert d['B'] == 6
 
+
 if __name__ == '__main__':
     unittest.main()

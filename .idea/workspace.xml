@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77ca156d-0375-4b59-9c3f-57172fc2122b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/letters_tellen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_letters_tellen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistiek.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistiek.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_tellen.py" beforeDir="false" afterPath="$PROJECT_DIR$/letters_tellen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_letters_tellen.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_letters_tellen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569097076581</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="letters tellen">
+      <created>1569098718203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569098718203</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +225,7 @@
     <MESSAGE value="bisection algorithm" />
     <MESSAGE value="statistiek" />
     <MESSAGE value="descriptive statistics + sse" />
-    <option name="LAST_COMMIT_MESSAGE" value="descriptive statistics + sse" />
+    <MESSAGE value="letters tellen" />
+    <option name="LAST_COMMIT_MESSAGE" value="letters tellen" />
   </component>
 </project>
