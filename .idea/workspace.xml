@@ -8,9 +8,11 @@
   <component name="ChangeListManager">
     <list default="true" id="77ca156d-0375-4b59-9c3f-57172fc2122b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/letters_tellen.py" beforeDir="false" afterPath="$PROJECT_DIR$/letters_tellen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistiek.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistiek.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweedegraadsvergelijking.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweedegraadsvergelijking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_geld.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_geld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_paasdatum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_paasdatum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_statistiek.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_statistiek.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_tweedegraadsvergelijking.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_tweedegraadsvergelijking.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,21 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_statistiek.MyTestCase">
-    <configuration name="Unittests for test_letters_tellen.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_letters_tellen.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test_bisectiemethode.py">
     <configuration name="Unittests for test_statistiek.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +63,20 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_statistiek.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_bisectiemethode.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_bisectiemethode.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test_geld.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_statistiek.MyTestCase" />
-        <item itemvalue="Python tests.Unittests for test_letters_tellen.MyTestCase" />
-        <item itemvalue="Python tests.Unittests in test_tweedegraadsvergelijking.py" />
-        <item itemvalue="Python tests.Unittests in test_paasdatum.py" />
+        <item itemvalue="Python tests.Unittests in test_bisectiemethode.py" />
         <item itemvalue="Python tests.Unittests in test_geld.py" />
+        <item itemvalue="Python tests.Unittests in test_paasdatum.py" />
+        <item itemvalue="Python tests.Unittests in test_tweedegraadsvergelijking.py" />
+        <item itemvalue="Python tests.Unittests for test_statistiek.MyTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569101195182</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="div 0 check">
+      <created>1569102391759</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569102391759</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -259,6 +268,7 @@
     <MESSAGE value="validate txt extension" />
     <MESSAGE value="refactor" />
     <MESSAGE value="refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
+    <MESSAGE value="div 0 check" />
+    <option name="LAST_COMMIT_MESSAGE" value="div 0 check" />
   </component>
 </project>

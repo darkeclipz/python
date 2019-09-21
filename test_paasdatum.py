@@ -13,11 +13,11 @@ class MyTestCase(unittest.TestCase):
 
     def test_date1(self):
         date = easter_date(2016)
-        assert date == datetime(2016, 3, 27), 'Date is incorrect'
+        assert date == datetime(2016, 3, 27), 'Date should be 27-3-2016'
 
     def test_date2(self):
         date = easter_date(2020)
-        assert date == datetime(2020, 4, 12), 'Date is incorrect'
+        assert date == datetime(2020, 4, 12), 'Date should be 12-4-2020'
 
 
 if __name__ == '__main__':

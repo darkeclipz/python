@@ -18,7 +18,7 @@ class PiApproximationTests(unittest.TestCase):
 
     def test_approximate_pi_euler_n100(self):
         pi = approximate_pi_euler(100)
-        assert round(pi, 3) == 3.132, 'Invalid approximation.'
+        assert round(pi, 3) == 3.132, 'Approximation should be 3.132.'
 
     def test_approximate_pi_gregory_leibniz_n0(self):
         try:
@@ -33,7 +33,7 @@ class PiApproximationTests(unittest.TestCase):
 
     def test_approximate_pi_gregory_leibniz_n100(self):
         pi = approximate_pi_gregory_leibniz(100)
-        assert round(pi, 3) == 3.151, 'Invalid approximation.'
+        assert round(pi, 3) == 3.151, 'Approximation should be 3.151.'
 
     def test_approximate_pi_brent_salamin_n0(self):
         approximate_pi_brent_salamin(0)
@@ -48,8 +48,8 @@ class PiApproximationTests(unittest.TestCase):
 
     def test_approximate_pi_brent_salamin_n3(self):
         pi = approximate_pi_brent_salamin(3)
-        # pi should be correct to 7 decimal places for n=3.
-        assert trunc(pi * 10**7) == trunc(π * 10**7)
+        assert trunc(pi * 10**7) == trunc(π * 10**7), \
+            'Approximation should be correct up to 7 decimals'
 
 
 if __name__ == '__main__':
