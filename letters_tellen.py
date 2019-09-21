@@ -29,7 +29,6 @@ def count_characters(text):
 
 
 def validate_txt_extension(file_path):
-    # Luckily 'txt' is a palindrome, so compare to last 3 letters.
     if 'txt' not in file_path[-3:]:
         raise ValueError('File is not a .txt file.')
 

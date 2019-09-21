@@ -9,8 +9,6 @@
     <list default="true" id="77ca156d-0375-4b59-9c3f-57172fc2122b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/letters_tellen.py" beforeDir="false" afterPath="$PROJECT_DIR$/letters_tellen.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statistiek.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistiek.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_letters_tellen.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_letters_tellen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569099508090</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="validate txt extension">
+      <created>1569100690369</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569100690369</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +240,7 @@
     <MESSAGE value="descriptive statistics + sse" />
     <MESSAGE value="letters tellen" />
     <MESSAGE value="refactor of letter count" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor of letter count" />
+    <MESSAGE value="validate txt extension" />
+    <option name="LAST_COMMIT_MESSAGE" value="validate txt extension" />
   </component>
 </project>
