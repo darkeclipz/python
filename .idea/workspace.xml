@@ -7,15 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77ca156d-0375-4b59-9c3f-57172fc2122b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bisectiemethode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_bisectiemethode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geld.py" beforeDir="false" afterPath="$PROJECT_DIR$/geld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paasdatum.py" beforeDir="false" afterPath="$PROJECT_DIR$/paasdatum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/pi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_geld.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_geld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_paasdatum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_paasdatum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tweedegraadsvergelijking.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_tweedegraadsvergelijking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tweedegraadsvergelijking.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweedegraadsvergelijking.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +48,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_pi.PiApproximationTests">
-    <configuration name="Unittests for test_pi.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_bisectiemethode.MyTestCase">
+    <configuration name="Unittests for test_bisectiemethode" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +59,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pi.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;test_bisectiemethode&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_pi.MyTestCase.test_approximate_pi_euler_n0" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_bisectiemethode.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,11 +73,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pi.MyTestCase.test_approximate_pi_euler_n0&quot;" />
+      <option name="_new_target" value="&quot;test_bisectiemethode.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_pi.MyTestCase.test_approximate_pi_euler_n1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_bisectiemethode.MyTestCase.test_solve_poly1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +87,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pi.MyTestCase.test_approximate_pi_euler_n1&quot;" />
+      <option name="_new_target" value="&quot;test_bisectiemethode.MyTestCase.test_solve_poly1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_bisectiemethode.MyTestCase.test_solve_sinusoid" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_bisectiemethode.MyTestCase.test_solve_sinusoid&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -110,27 +119,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_pi.PiApproximationTests.test_approximate_pi_brent_salamin_n3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_pi.PiApproximationTests.test_approximate_pi_brent_salamin_n3&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_bisectiemethode.MyTestCase" />
+        <item itemvalue="Python tests.Unittests for test_bisectiemethode" />
+        <item itemvalue="Python tests.Unittests for test_bisectiemethode.MyTestCase.test_solve_sinusoid" />
+        <item itemvalue="Python tests.Unittests for test_bisectiemethode.MyTestCase.test_solve_poly1" />
         <item itemvalue="Python tests.Unittests for test_pi.PiApproximationTests" />
-        <item itemvalue="Python tests.Unittests for test_pi.PiApproximationTests.test_approximate_pi_brent_salamin_n3" />
-        <item itemvalue="Python tests.Unittests for test_pi.MyTestCase" />
-        <item itemvalue="Python tests.Unittests for test_pi.MyTestCase.test_approximate_pi_euler_n1" />
-        <item itemvalue="Python tests.Unittests for test_pi.MyTestCase.test_approximate_pi_euler_n0" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569082083899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1569083709196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569083709196</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,6 +194,7 @@
     <MESSAGE value="Pi" />
     <MESSAGE value="Pi tests" />
     <MESSAGE value="pi update" />
-    <option name="LAST_COMMIT_MESSAGE" value="pi update" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

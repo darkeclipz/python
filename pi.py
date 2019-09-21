@@ -3,12 +3,12 @@ from math import sqrt, isinf
 from warnings import warn
 
 
-def validate_if_greater_than_or_equal(n, greater_than_or_equal_to):
+def validate_is_greater_than_or_equal(n, greater_than_or_equal_to):
     if not n >= greater_than_or_equal_to:
         raise ValueError('n must be greater than or equal to {}.'.format(greater_than_or_equal_to))
 
 
-def validate_if_integer(n):
+def validate_is_integer(n):
     # Don't use 'type(n) is int', because it doesn't account for polymorphism.
     if not isinstance(n, int):
         raise ValueError('n must be an integer.')
@@ -24,8 +24,8 @@ def approximate_pi_euler(n):
     :param n: How many terms are used in the approximation.
     :return: Approximation of π.
     """
-    validate_if_integer(n)
-    validate_if_greater_than_or_equal(n, greater_than_or_equal_to=1)
+    validate_is_integer(n)
+    validate_is_greater_than_or_equal(n, greater_than_or_equal_to=1)
     sequence = [euler_term(i) for i in range(1, n + 1)]
     return sqrt(6 * sum(sequence))
 
@@ -40,8 +40,8 @@ def approximate_pi_gregory_leibniz(n):
     :param n: How many terms are used in the approximation.
     :return: Approximation of π.
     """
-    validate_if_integer(n)
-    validate_if_greater_than_or_equal(n, greater_than_or_equal_to=1)
+    validate_is_integer(n)
+    validate_is_greater_than_or_equal(n, greater_than_or_equal_to=1)
     sequence = [gregory_leibniz_term(i) for i in range(0, n + 1)]
     return 4 * sum(sequence)
 
@@ -68,8 +68,8 @@ def approximate_pi_brent_salamin(n):
     :param n: How many iterations of the recursive functions are used.
     :return: Approximation of π.
     """
-    validate_if_integer(n)
-    validate_if_greater_than_or_equal(n, greater_than_or_equal_to=0)
+    validate_is_integer(n)
+    validate_is_greater_than_or_equal(n, greater_than_or_equal_to=0)
     b = sqrt(2)
     s = sqrt(8)
     for i in range(1, n + 1):
