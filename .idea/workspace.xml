@@ -9,6 +9,7 @@
     <list default="true" id="77ca156d-0375-4b59-9c3f-57172fc2122b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/letters_tellen.py" beforeDir="false" afterPath="$PROJECT_DIR$/letters_tellen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statistiek.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistiek.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_letters_tellen.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_letters_tellen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,34 +49,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests for test_letters_tellen.MyTestCase">
-    <configuration name="Unittests for test_bisectiemethode" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bisectiemethode&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_bisectiemethode.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PythonTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_bisectiemethode.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for test_letters_tellen.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,7 +63,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_letters_tellen.MyTestCase.test_read_file" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_geld.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +73,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_letters_tellen.MyTestCase.test_read_file&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_geld.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_statistiek.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_paasdatum.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,17 +87,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statistiek.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_paasdatum.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_pi.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_pi.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_tweedegraadsvergelijking.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PythonTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_tweedegraadsvergelijking.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for test_letters_tellen.MyTestCase" />
-        <item itemvalue="Python tests.Unittests for test_letters_tellen.MyTestCase.test_read_file" />
-        <item itemvalue="Python tests.Unittests for test_statistiek.MyTestCase" />
-        <item itemvalue="Python tests.Unittests for test_bisectiemethode.MyTestCase" />
-        <item itemvalue="Python tests.Unittests for test_bisectiemethode" />
+        <item itemvalue="Python tests.Unittests in test_tweedegraadsvergelijking.py" />
+        <item itemvalue="Python tests.Unittests in test_paasdatum.py" />
+        <item itemvalue="Python tests.Unittests in test_geld.py" />
+        <item itemvalue="Python tests.Unittests in test_pi.py" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569098718203</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor of letter count">
+      <created>1569099508090</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569099508090</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +234,7 @@
     <MESSAGE value="statistiek" />
     <MESSAGE value="descriptive statistics + sse" />
     <MESSAGE value="letters tellen" />
-    <option name="LAST_COMMIT_MESSAGE" value="letters tellen" />
+    <MESSAGE value="refactor of letter count" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor of letter count" />
   </component>
 </project>

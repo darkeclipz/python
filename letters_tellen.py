@@ -28,6 +28,12 @@ def count_characters(text):
     return counted_characters
 
 
+def validate_txt_extension(file_path):
+    # Luckily 'txt' is a palindrome, so compare to last 3 letters.
+    if 'txt' not in file_path[-3:]:
+        raise ValueError('File is not a .txt file.')
+
+
 def read_text_from_file(file_path):
     """
     Reads all the text from a text file, and returns this as a single
@@ -35,6 +41,7 @@ def read_text_from_file(file_path):
     :param file_path: The path to the file.
     :return: All the text in the file as a string.
     """
+    validate_txt_extension(file_path)
     with open(file_path) as file:
         # Read all the lines from the file, and concatenate them.
         return ''.join([line for line in file])

@@ -12,14 +12,14 @@ def is_even(x):
     return x % 2 == 0
 
 
-def get_middle_element_from_list(values):
+def get_middle_element(values):
     n = len(values)
     if is_even(n):
         raise ValueError('Length of the list must be odd.')
     return values[n // 2]
 
 
-def get_middle_two_elements_from_list(values):
+def get_middle_two_elements(values):
     n = len(values)
     if not is_even(n):
         raise ValueError('Length of the list must be even.')
@@ -35,8 +35,8 @@ def median(values):
     validate_all_values_are_numbers(values)
     values = sorted(values)
     if is_even(len(values)):
-        return sum(get_middle_two_elements_from_list(values)) / 2
-    return get_middle_element_from_list(values)
+        return sum(get_middle_two_elements(values)) / 2
+    return get_middle_element(values)
 
 
 def mean(values):
