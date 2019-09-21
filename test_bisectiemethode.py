@@ -13,7 +13,7 @@ def is_within_range(actual, expected, error):
     :param error: the error range to create the interval [x'-e, x'+e].
     :return: True if x is within the interval [x'-e, x'+e].
     """
-    return expected - error < actual < expected + error
+    return expected - error <= actual <= expected + error
 
 
 class MyTestCase(unittest.TestCase):
