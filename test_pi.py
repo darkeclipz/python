@@ -1,6 +1,7 @@
 import unittest
 from pi import approximate_pi_euler, approximate_pi_gregory_leibniz, approximate_pi_brent_salamin
-from math import pi as PI
+from math import pi as π
+from math import trunc
 
 class PiApproximationTests(unittest.TestCase):
     def test_approximate_pi_euler_n0(self):
@@ -46,7 +47,9 @@ class PiApproximationTests(unittest.TestCase):
 
     def test_approximate_pi_brent_salamin_n3(self):
         pi = approximate_pi_brent_salamin(3)
-        assert round(pi, 7), round(PI, 7)
+        # pi should be correct to 7 decimal places for n=3.
+        assert trunc(pi * 10**7) == trunc(π * 10**7)
+
 
 if __name__ == '__main__':
     unittest.main()

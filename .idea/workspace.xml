@@ -7,9 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77ca156d-0375-4b59-9c3f-57172fc2122b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/paasdatum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_paasdatum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geld.py" beforeDir="false" afterPath="$PROJECT_DIR$/geld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/pi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_geld.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_geld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_paasdatum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_paasdatum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_tweedegraadsvergelijking.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_tweedegraadsvergelijking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tweedegraadsvergelijking.py" beforeDir="false" afterPath="$PROJECT_DIR$/tweedegraadsvergelijking.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +37,9 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -44,8 +52,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_paasdatum.MyTestCase">
-    <configuration name="Unittests for test_geld.GeldTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_pi.PiApproximationTests">
+    <configuration name="Unittests for test_pi.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -55,11 +63,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_geld.GeldTests&quot;" />
+      <option name="_new_target" value="&quot;test_pi.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_geld.GeldTests.test_solve_for_p" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_pi.MyTestCase.test_approximate_pi_euler_n0" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +77,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_geld.GeldTests.test_solve_for_p&quot;" />
+      <option name="_new_target" value="&quot;test_pi.MyTestCase.test_approximate_pi_euler_n0&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_geld.GeldTests.test_solve_for_t" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_pi.MyTestCase.test_approximate_pi_euler_n1" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -83,11 +91,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_geld.GeldTests.test_solve_for_t&quot;" />
+      <option name="_new_target" value="&quot;test_pi.MyTestCase.test_approximate_pi_euler_n1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_paasdatum" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_pi.PiApproximationTests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -97,11 +105,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_paasdatum&quot;" />
+      <option name="_new_target" value="&quot;test_pi.PiApproximationTests&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_paasdatum.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_pi.PiApproximationTests.test_approximate_pi_brent_salamin_n3" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="PythonTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,17 +119,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_paasdatum.MyTestCase&quot;" />
+      <option name="_new_target" value="&quot;test_pi.PiApproximationTests.test_approximate_pi_brent_salamin_n3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_paasdatum.MyTestCase" />
-        <item itemvalue="Python tests.Unittests for test_paasdatum" />
-        <item itemvalue="Python tests.Unittests for test_geld.GeldTests" />
-        <item itemvalue="Python tests.Unittests for test_geld.GeldTests.test_solve_for_p" />
-        <item itemvalue="Python tests.Unittests for test_geld.GeldTests.test_solve_for_t" />
+        <item itemvalue="Python tests.Unittests for test_pi.PiApproximationTests" />
+        <item itemvalue="Python tests.Unittests for test_pi.PiApproximationTests.test_approximate_pi_brent_salamin_n3" />
+        <item itemvalue="Python tests.Unittests for test_pi.MyTestCase" />
+        <item itemvalue="Python tests.Unittests for test_pi.MyTestCase.test_approximate_pi_euler_n1" />
+        <item itemvalue="Python tests.Unittests for test_pi.MyTestCase.test_approximate_pi_euler_n0" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +144,28 @@
       <option name="presentableId" value="Default" />
       <updated>1569060781736</updated>
     </task>
+    <task id="LOCAL-00001" summary="Easter date">
+      <created>1569067291011</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569067291011</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pi">
+      <created>1569079524354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569079524354</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Pi tests">
+      <created>1569079556366</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569079556366</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +178,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Easter date" />
+    <MESSAGE value="Pi" />
+    <MESSAGE value="Pi tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pi tests" />
   </component>
 </project>

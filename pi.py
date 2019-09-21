@@ -2,9 +2,19 @@ from math import sqrt, isinf
 from warnings import warn
 
 
-def error_if(n, smaller_than):
+def error_if_smaller_than(n, smaller_than):
     if n < smaller_than:
         raise ValueError('n must be greater than or equal to {}.'.format(smaller_than))
+
+
+def error_if_not_integer(n):
+    # Don't use 'type(n) is int', because it doesn't account for polymorphism.
+    if not isinstance(n, int):
+        raise ValueError('n must be an integer.')
+
+
+def euler_term(x):
+    return 1 / x**2
 
 
 def approximate_pi_euler(n):
@@ -13,9 +23,14 @@ def approximate_pi_euler(n):
     :param n: How many terms are used in the approximation.
     :return: Approximation of π.
     """
-    error_if(n, smaller_than=1)
-    sequence = [1 / i**2 for i in range(1, n + 1)]
+    error_if_not_integer(n)
+    error_if_smaller_than(n, smaller_than=1)
+    sequence = [euler_term(i) for i in range(1, n + 1)]
     return sqrt(6 * sum(sequence))
+
+
+def gregory_leibniz_term(x):
+    return (-1)**x * (1 / (2 * x + 1))
 
 
 def approximate_pi_gregory_leibniz(n):
@@ -24,8 +39,9 @@ def approximate_pi_gregory_leibniz(n):
     :param n: How many terms are used in the approximation.
     :return: Approximation of π.
     """
-    error_if(n, smaller_than=1)
-    sequence = [(-1)**i * (1 / (2 * i + 1)) for i in range(0, n + 1)]
+    error_if_not_integer(n)
+    error_if_smaller_than(n, smaller_than=1)
+    sequence = [gregory_leibniz_term(i) for i in range(0, n + 1)]
     return 4 * sum(sequence)
 
 
@@ -37,12 +53,12 @@ def calculate_s(s):
     return (s + sqrt(s*s - 4))**2 / 2
 
 
-def calculate_pi_n(n, b, s):
-    return (1/2) ** n * s / b
+def calculate_pi(n, b, s):
+    return (1/2)**n * s / b
 
 
 def is_overflowing(b, s):
-    return isinf(calculate_b(b, s)) or isinf(calculate_s(s))
+    return isinf(b) or isinf(s)
 
 
 def approximate_pi_brent_salamin(n):
@@ -51,14 +67,17 @@ def approximate_pi_brent_salamin(n):
     :param n: How many iterations of the recursive functions are used.
     :return: Approximation of π.
     """
-    error_if(n, smaller_than=0)
+    error_if_not_integer(n)
+    error_if_smaller_than(n, smaller_than=0)
     b = sqrt(2)
     s = sqrt(8)
     for i in range(1, n + 1):
-        if is_overflowing(b, s):
+        next_b = calculate_b(b, s)
+        next_s = calculate_s(s)
+        if is_overflowing(next_b, next_s):
             n = i - 1
             warn('Overflow for b or s at n={}, returning approximation.'.format(n))
             break
-        b = calculate_b(b, s)
-        s = calculate_s(s)
-    return calculate_pi_n(n, b, s)
+        b = next_b
+        s = next_s
+    return calculate_pi(n, b, s)

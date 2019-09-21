@@ -28,8 +28,11 @@ def positive_solution(a, b, discriminant):
 def solve(a, b, c):
     """
     Solves a polynomial of the form: ax^2 + bx + c = 0.
-    Returns the solution as a tuple (s1, s2), where s2 is None
-    if there is only a single solution.
+    :param a: value of a in ax^2.
+    :param b: value of b in bx.
+    :param c: value of the constant c.
+    :return: the solution as a tuple (s1, s2), where s2 is None
+             if there is only a single solution.
     """
     if is_invalid_polynomial(a, b):
         raise ValueError('Invalid polynomial.')

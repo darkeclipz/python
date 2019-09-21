@@ -3,21 +3,21 @@ from geld import *
 
 
 class GeldTests(unittest.TestCase):
-    def test_solve_for_e(self):
-        e = solve_for_e(1000, 4, 10)
-        assert round(e, 2) == 1480.24
+    def test_calculate_closing_value(self):
+        e = calculate_closing_value(1000, 4, 10)
+        assert round(e, 2) == 1480.24, 'Invalid result for e'
 
-    def test_solve_for_b(self):
-        b = solve_for_b(1480.24, 4, 10)
-        assert round(b) == 1000
+    def test_calculate_start_capital(self):
+        b = calculate_start_capital(1480.24, 4, 10)
+        assert round(b) == 1000, 'Invalid result for b'
 
-    def test_solve_for_t(self):
-        t = solve_for_t(1000, 4, 1480.24)
-        assert round(t) == 10
+    def test_calculate_period(self):
+        t = calculate_period(1000, 4, 1480.24)
+        assert round(t) == 10, 'Invalid result for t'
 
-    def test_solve_for_p(self):
-        p = solve_for_p(10, 1480.24, 1000)
-        assert round(p) == 4
+    def test_calculate_interest(self):
+        p = calculate_interest(1000, 10, 1480.24)
+        assert round(p) == 4, 'Invalid result for p'
 
 
 if __name__ == '__main__':

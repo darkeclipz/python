@@ -6,29 +6,57 @@ def error_if_none_or_zero(arg, name):
         raise ValueError('Argument {name} cannot be zero'.format(name=name))
 
 
-def solve_for_e(b, p, t):
-    error_if_none_or_zero(b, 'b')
-    error_if_none_or_zero(p, 'p')
-    error_if_none_or_zero(t, 't')
-    return b * (1 + p / 100) ** t
+def calculate_closing_value(start_capital, interest, period):
+    """
+    Calculate the closing value for a given start capital, interest, and a period.
+    :param start_capital: initial value to start with.
+    :param interest: interest in percentages, e.g. 5 for 5%.
+    :param period: period is in years, so 10 for 10 years.
+    :return: closing value for the interest over t years.
+    """
+    error_if_none_or_zero(start_capital, name='start_capital')
+    error_if_none_or_zero(interest, name='interest')
+    error_if_none_or_zero(period, name='period')
+    return start_capital * (1 + interest / 100) ** period
 
 
-def solve_for_b(e, p, t):
-    error_if_none_or_zero(e, 'e')
-    error_if_none_or_zero(p, 'p')
-    error_if_none_or_zero(t, 't')
-    return e / (1 + p / 100) ** t
+def calculate_start_capital(closing_value, interest, period):
+    """
+    Calculate the start capital required given a closing value, interest, and a period.
+    :param closing_value: value for the interest over t years.
+    :param interest: interest in percentages, e.g. 5 for 5%.
+    :param period: period is in years, so 10 for 10 years.
+    :return: start capital required.
+    """
+    error_if_none_or_zero(closing_value, name='closing_value')
+    error_if_none_or_zero(interest, name='interest')
+    error_if_none_or_zero(period, name='period')
+    return closing_value / (1 + interest / 100) ** period
 
 
-def solve_for_t(b, p, e):
-    error_if_none_or_zero(b, 'b')
-    error_if_none_or_zero(p, 'p')
-    error_if_none_or_zero(e, 'e')
-    return log(e / b) / log(1 + p / 100)
+def calculate_period(start_capital, interest, closing_value):
+    """
+    Calculate the period required given a start capital, interest and closing value.
+    :param start_capital: initial value to start with.
+    :param interest: interest in percentages, e.g. 5 for 5%.
+    :param closing_value: end capital after the period with the interest.
+    :return: duration of the required period.
+    """
+    error_if_none_or_zero(start_capital, name='start_capital')
+    error_if_none_or_zero(interest, name='interest')
+    error_if_none_or_zero(closing_value, name='closing_value')
+    return log(closing_value / start_capital) / log(1 + interest / 100)
 
 
-def solve_for_p(t, e, b):
-    error_if_none_or_zero(t, 't')
-    error_if_none_or_zero(e, 'e')
-    error_if_none_or_zero(b, 'b')
-    return 100 * ((e / b)**(1 / t) - 1)
+def calculate_interest(start_capital, period, closing_value):
+    """
+    Calculate the interest required given a start capital, period, and closing value.
+    :param start_capital: initial value to start with.
+    :param period: period is in years, so 10 for 10 years.
+    :param closing_value: end capital after the period with the interest.
+    :return: interest that is required.
+    """
+    error_if_none_or_zero(period, name='period')
+    error_if_none_or_zero(closing_value, name='closing_value')
+    error_if_none_or_zero(start_capital, name='start_capital')
+    return 100 * ((closing_value / start_capital) ** (1 / period) - 1)
