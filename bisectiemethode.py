@@ -2,6 +2,7 @@
 from math import sin
 
 
+MAX_ITERATIONS = 1024
 poly1 = lambda x: 2 * x**2 - 5 * x + 2
 sinusoid = lambda x: sin(x)
 
@@ -41,7 +42,7 @@ def bisection_solver(f, a, b, epsilon=0.001):
     validate_conditions(f, a, b, epsilon)
     m = calculate_midpoint(a, b)
     fm = f(m)
-    remaining_iterations = 1024
+    remaining_iterations = MAX_ITERATIONS
     while not is_within_error_bound(fm, epsilon):
         if has_same_sign(f(a), fm):
             a = m
