@@ -1,7 +1,8 @@
+# Lars Rotgers (lars.rotgers@student.nhlstenden.com), 21-9-2019
 from math import log
 
 
-def error_if_none_or_zero(arg, name):
+def validate_if_not_none_or_zero(arg, name):
     if arg is None or arg == 0:
         raise ValueError('Argument {name} cannot be zero'.format(name=name))
 
@@ -14,9 +15,9 @@ def calculate_closing_value(start_capital, interest, period):
     :param period: period is in years, so 10 for 10 years.
     :return: closing value for the interest over t years.
     """
-    error_if_none_or_zero(start_capital, name='start_capital')
-    error_if_none_or_zero(interest, name='interest')
-    error_if_none_or_zero(period, name='period')
+    validate_if_not_none_or_zero(start_capital, name='start_capital')
+    validate_if_not_none_or_zero(interest, name='interest')
+    validate_if_not_none_or_zero(period, name='period')
     return start_capital * (1 + interest / 100) ** period
 
 
@@ -28,9 +29,9 @@ def calculate_start_capital(closing_value, interest, period):
     :param period: period is in years, so 10 for 10 years.
     :return: start capital required.
     """
-    error_if_none_or_zero(closing_value, name='closing_value')
-    error_if_none_or_zero(interest, name='interest')
-    error_if_none_or_zero(period, name='period')
+    validate_if_not_none_or_zero(closing_value, name='closing_value')
+    validate_if_not_none_or_zero(interest, name='interest')
+    validate_if_not_none_or_zero(period, name='period')
     return closing_value / (1 + interest / 100) ** period
 
 
@@ -42,9 +43,9 @@ def calculate_period(start_capital, interest, closing_value):
     :param closing_value: end capital after the period with the interest.
     :return: duration of the required period.
     """
-    error_if_none_or_zero(start_capital, name='start_capital')
-    error_if_none_or_zero(interest, name='interest')
-    error_if_none_or_zero(closing_value, name='closing_value')
+    validate_if_not_none_or_zero(start_capital, name='start_capital')
+    validate_if_not_none_or_zero(interest, name='interest')
+    validate_if_not_none_or_zero(closing_value, name='closing_value')
     return log(closing_value / start_capital) / log(1 + interest / 100)
 
 
@@ -56,7 +57,7 @@ def calculate_interest(start_capital, period, closing_value):
     :param closing_value: end capital after the period with the interest.
     :return: interest that is required.
     """
-    error_if_none_or_zero(period, name='period')
-    error_if_none_or_zero(closing_value, name='closing_value')
-    error_if_none_or_zero(start_capital, name='start_capital')
+    validate_if_not_none_or_zero(period, name='period')
+    validate_if_not_none_or_zero(closing_value, name='closing_value')
+    validate_if_not_none_or_zero(start_capital, name='start_capital')
     return 100 * ((closing_value / start_capital) ** (1 / period) - 1)

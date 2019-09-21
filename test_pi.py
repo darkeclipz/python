@@ -1,3 +1,4 @@
+# Lars Rotgers (lars.rotgers@student.nhlstenden.com), 21-9-2019
 import unittest
 from pi import approximate_pi_euler, approximate_pi_gregory_leibniz, approximate_pi_brent_salamin
 from math import pi as π

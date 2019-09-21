@@ -1,3 +1,4 @@
+# Lars Rotgers (lars.rotgers@student.nhlstenden.com), 21-9-2019
 import unittest
 from tweedegraadsvergelijking import solve
 

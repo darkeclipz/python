@@ -9,6 +9,7 @@
     <list default="true" id="77ca156d-0375-4b59-9c3f-57172fc2122b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geld.py" beforeDir="false" afterPath="$PROJECT_DIR$/geld.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paasdatum.py" beforeDir="false" afterPath="$PROJECT_DIR$/paasdatum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/pi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_geld.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_geld.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_paasdatum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_paasdatum.py" afterDir="false" />
@@ -165,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569079556366</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pi update">
+      <created>1569082083899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569082083899</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +191,7 @@
     <MESSAGE value="Easter date" />
     <MESSAGE value="Pi" />
     <MESSAGE value="Pi tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pi tests" />
+    <MESSAGE value="pi update" />
+    <option name="LAST_COMMIT_MESSAGE" value="pi update" />
   </component>
 </project>
