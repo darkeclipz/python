@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77ca156d-0375-4b59-9c3f-57172fc2122b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/statistiek.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_statistiek.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bisectiemethode.py" beforeDir="false" afterPath="$PROJECT_DIR$/bisectiemethode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bisectiemethode.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bisectiemethode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statistiek.py" beforeDir="false" afterPath="$PROJECT_DIR$/statistiek.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_statistiek.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_statistiek.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569090601464</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="statistiek">
+      <created>1569095832721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1569095832721</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +209,7 @@
     <MESSAGE value="pi update" />
     <MESSAGE value="update" />
     <MESSAGE value="bisection algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="bisection algorithm" />
+    <MESSAGE value="statistiek" />
+    <option name="LAST_COMMIT_MESSAGE" value="statistiek" />
   </component>
 </project>

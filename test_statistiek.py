@@ -1,6 +1,6 @@
 # Lars Rotgers (lars.rotgers@student.nhlstenden.com), 21-9-2019
 import unittest
-from statistiek import median, mean, spread, sd
+from statistiek import median, mean, spread, sd, descriptive_statistics
 from math import sqrt
 
 class MyTestCase(unittest.TestCase):
@@ -33,6 +33,14 @@ class MyTestCase(unittest.TestCase):
 
     def test_sd(self):
         stddev = sd([1, 2, 3, 4, 5])
+        assert stddev == sqrt(2)
+
+    def test_descriptive_statistics(self):
+        values = [1, 2, 3, 4, 5]
+        med, avg, spr, stddev = descriptive_statistics(values)
+        assert med == 3
+        assert spr == 4
+        assert avg == 3
         assert stddev == sqrt(2)
 
 
