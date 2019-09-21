@@ -7,12 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77ca156d-0375-4b59-9c3f-57172fc2122b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_geld.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_geld.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_paasdatum.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_paasdatum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_pi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_statistiek.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_statistiek.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tweedegraadsvergelijking.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_tweedegraadsvergelijking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/letters_tellen.py" beforeDir="false" afterPath="$PROJECT_DIR$/letters_tellen.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569102391759</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="test expected value messages">
+      <created>1569102761484</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569102761484</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,6 +271,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="div 0 check" />
-    <option name="LAST_COMMIT_MESSAGE" value="div 0 check" />
+    <MESSAGE value="test expected value messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="test expected value messages" />
   </component>
 </project>

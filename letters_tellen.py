@@ -13,6 +13,8 @@ def is_uppercase_character(char):
 def next_uppercase_character(text):
     for char in text:
         if is_uppercase_character(char):
+            # yield allows the calling function to continue
+            # before the next char is retrieved from the text.
             yield char
 
 
