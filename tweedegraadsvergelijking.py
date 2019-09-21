@@ -37,16 +37,11 @@ def solve(a, b, c):
     """
     if is_invalid_polynomial(a, b):
         raise ValueError('Invalid polynomial.')
-
     if is_first_degree_polynomial(a, b):
         return first_degree_solution(b, c), None
-
     discriminant = calculate_discriminant(a, b, c)
-
     if discriminant < 0:
         raise ValueError('Negative discriminant, there is no real solution.')
-
     if discriminant == 0:
         return positive_solution(a, b, discriminant), None
-
     return negative_solution(a, b, discriminant), positive_solution(a, b, discriminant)

@@ -46,6 +46,8 @@ def mean(values):
     :return: Mean value for the list.
     """
     validate_all_values_are_numbers(values)
+    if len(values) == 0:
+        raise ValueError('List can\'t be empty, otherwise it divides by zero.')
     return sum(values) / len(values)
 
 
@@ -78,7 +80,7 @@ def sse(values):
 
 
 def variance(values):
-    return sse(values) / len(values)
+    return sse(values) / len(values)  # mean checks div 0
 
 
 def sd(values):

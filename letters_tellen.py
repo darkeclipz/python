@@ -42,5 +42,5 @@ def read_text_from_file(file_path):
     """
     validate_txt_extension(file_path)
     with open(file_path) as file:
-        # Read all the lines from the file, and concatenate them.
+        # Read all the lines from the file, and concatenate into a single string.
         return ''.join([line for line in file])
