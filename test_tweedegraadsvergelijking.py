@@ -1,6 +1,6 @@
 # Lars Rotgers (lars.rotgers@student.nhlstenden.com), 21-9-2019
 import unittest
-from tweedegraadsvergelijking import solve
+from tweedegraadsvergelijking import *
 
 
 class TweedegraadsvergelijkingTests(unittest.TestCase):
@@ -8,7 +8,7 @@ class TweedegraadsvergelijkingTests(unittest.TestCase):
         try:
             solve(0, 0, 0)
             assert False, 'Exception not raised'
-        except ValueError:
+        except InvalidPolynomialError:
             pass
 
     def test_first_degree(self):
@@ -20,7 +20,7 @@ class TweedegraadsvergelijkingTests(unittest.TestCase):
         try:
             solve(1, 2, 20)
             assert False, 'Exception not raised for negative discriminant'
-        except ValueError:
+        except NegativeDiscriminantError:
             pass
 
     def test_poly1(self):

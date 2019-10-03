@@ -2,6 +2,10 @@
 from datetime import datetime
 
 
+class ArgumentError(Exception):
+    pass
+
+
 def easter_date(year):
     """
     Determines the date on which Easter will fall, for a given year.
@@ -9,7 +13,7 @@ def easter_date(year):
     :return: datetime with the Easter Date.
     """
     if not year > 1900:
-        raise ValueError('Year must be greater than 1900.')
+        raise ArgumentError('Year must be greater than 1900.')
     n = year - 1900
     a = n % 19
     b = (7 * a + 1) // 19

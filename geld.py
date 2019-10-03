@@ -2,9 +2,13 @@
 from math import log
 
 
+class ArgumentError(Exception):
+    pass
+
+
 def validate_is_not_none_or_zero(arg, name):
     if arg is None or arg == 0:
-        raise ValueError('Argument {name} cannot be zero'.format(name=name))
+        raise ArgumentError(name)
 
 
 def calculate_closing_value(start_capital, interest, period):
