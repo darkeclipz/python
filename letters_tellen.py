@@ -30,8 +30,12 @@ def count_characters(text):
     return counted_characters
 
 
+def has_txt_extension(file_path):
+    return 'txt' in file_path[-3:]
+
+
 def validate_txt_extension(file_path):
-    if 'txt' not in file_path[-3:]:
+    if not has_txt_extension(file_path):
         raise ValueError('File is not a .txt file.')
 
 

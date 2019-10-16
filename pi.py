@@ -77,7 +77,7 @@ def approximate_pi_brent_salamin(n):
         next_s = calculate_s(s)
         if is_overflowing(next_b, next_s):
             n = i - 1
-            warn('Overflow for b or s at n={}, returning approximation.'.format(n))
+            warn('(Brent-Salamin) Overflow for b or s at n={}, returning approximation.'.format(n))
             break
         b = next_b
         s = next_s
