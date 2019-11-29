@@ -132,7 +132,7 @@ class StateConsole:
         try:
             print('Oplossing bepalen voor f(x) = {} met ({}, {}) en epsilon = {}'
                   .format(self.f, *self.interval, self.epsilon))
-            self.solution = bisectiemethode.bisection_solver(self.f.f, *self.interval, self.epsilon)
+            self.solution = bisectiemethode.bisection_solver(self.f.f, *self.interval, self.epsilon, verbose=True)
             return STATE_SOLUTION
         except Exception as e:
             print(e)
